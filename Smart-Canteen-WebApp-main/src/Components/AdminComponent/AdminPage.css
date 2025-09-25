@@ -1,0 +1,33 @@
+
+.profileContent h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*   StockBottons  */
+.operations{
+    margin : 1.2rem;
+    display : flex;
+    flex-direction :  column;
+    justify-content: center;
+    align-items: center;
+}
+.operations button{
+    margin : 13px;
+    padding : 3px 30px;
+    border : none;
+    background: #0982f3;
+    border-radius : 5px;
+}
+.operations button a {
+    font-family: 'Roboto Slab', 'Bree serif';
+    text-decoration: none;
+    font-weight: 500;
+    color : white;
+    font-size: 1.5rem;
+    cursor : pointer;
+}
+.operations button:hover{
+    background: blueviolet;
+    transform: scale(1.02);
+}

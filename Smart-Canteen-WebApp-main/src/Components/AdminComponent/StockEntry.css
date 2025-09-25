@@ -1,0 +1,184 @@
+
+#stockPage h1 {
+    margin: 1.5rem 0px 1.5rem 0px;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+#allStock {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+#stock {
+    margin: 1.5rem;
+}
+
+#stock table {
+    border: 2px solid red;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+#stock table thead tr th {
+    font-size: 1.4rem;
+    padding: 20px 5px 20px 5px;
+    border: 2px solid grey;
+
+}
+
+#stock table tbody tr td {
+
+    font-size: 1.1rem;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid grey;
+}
+
+tr {
+    overflow-y: scroll;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 3px;
+}
+
+input[type="date"] {
+    width: 90%;
+}
+
+#nameItem {
+    width: 30%;
+}
+
+/* for Btn s */
+#Btns {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 10px 10% 20px auto;
+}
+
+#Btns #save,
+#reset {
+    margin: 10px;
+}
+
+#Btns button {
+    border-radius: 5px;
+    background-color: #f3f3;
+
+    padding: 4px 30px;
+}
+
+#Btns button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#Btns button:hover {
+    transform: scale(1.03);
+    background: rgb(33, 238, 159);
+
+}
+
+#Btns button:active {
+    transform: scale(0.99);
+    background: rgb(33, 238, 159);
+
+}
+
+@media (max-width : 1317px) {
+    #stock table {
+        width: 100%;
+    }
+}
+
+@media (max-width : 751px) {
+
+
+    #stockPage h1 {
+        margin: 1.5rem 0px 1.5rem 0px;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    #allStock {
+
+        margin-left: 1px;
+        margin-right: 1px;
+        border: 2px solid black;
+    }
+
+    #stock {
+        overflow-x: auto;
+        margin: -2px;
+    }
+
+
+
+    .addNew button {
+        margin-bottom: 2%;
+    }
+
+
+}
+
+@media (max-width : 429px) {
+
+    #stock table thead tr th {
+        font-size: 1rem;
+        padding: 20px 5px 20px 5px;
+        border: 2px solid grey;
+    }
+
+    #stock table tbody tr td {
+        font-size: 0.7rem;
+        padding: 10px 0px 10px 0px;
+        border: 2px solid grey;
+    }
+
+    .addNew button {
+        border-radius: 5px;
+        background-color: #f3f3;
+        padding: 2px 12px;
+        font-size: 1.4rem;
+        margin-top: 2%;
+        margin-right: 21%;
+    }
+}
+
+
+.addNew{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.addNew button {
+    border-radius: 5px;
+    background-color: #f3f3;
+    padding: 2px 12px;
+    font-size: 1.4rem;
+    margin-top: 2%;
+    margin-right: 21%;
+}
+
+.addNew button:hover {
+    transform: scale(1.03);
+    background: rgb(33, 238, 159);
+
+}
+
+.addNew button:active {
+    transform: scale(0.99);
+    background: rgb(33, 238, 159);
+
+}
